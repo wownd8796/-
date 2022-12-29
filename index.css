@@ -1,9 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+.bg {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  background: aqua;
+}
+
+.content {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .tablet {
   width: 1100px;
   height: 640px;
-  background-color: bisque;
-  border: 2px solid black;
-  box-sizing: border-box;
-  text-align: center;
-  justify-content: center;
+  border: 3px solid black;
+  background: pink;
+}
+.tablet .weather {
+  background: coral;
+}
+.tablet .textbox {
+  background: palegreen;
+}
+.tablet .mainImg {
+  background: powderblue;
+}
+.tablet .btn {
+  background: brown;
 }/*# sourceMappingURL=index.css.map */
