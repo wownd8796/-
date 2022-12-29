@@ -37,9 +37,12 @@ body {
   background: pink;
 }
 .tablet .weather {
+  width: 150px;
+  position: absolute;
   background: coral;
 }
 .tablet .textbox {
+  text-align: center;
   background: palegreen;
 }
 .tablet .mainImg {
